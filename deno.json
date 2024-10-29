@@ -1,0 +1,20 @@
+{
+  "imports": {
+    "lodash": "npm:/lodash@4.17.21",
+    "dotenv": "https://deno.land/std@0.220.0/dotenv/mod.ts",
+    "langchain": "npm:/langchain@0.1.28",
+    "langchain/": "npm:/langchain@0.1.28/",
+    "@langchain/openai": "npm:/@langchain/openai@0.0.22",
+    "@langchain/openai/": "npm:/@langchain/openai@0.0.22/",
+    "@langchain/ollama": "npm:/@langchain/ollama@0.0.22",
+    "@langchain/core": "npm:/@langchain/core@0.1.48",
+    "@langchain/core/": "npm:/@langchain/core@0.1.48/",
+    "@langchain/community/": "npm:/@langchain/community/",
+    "zod": "npm:/zod",
+    "pdf-parse": "npm:/pdf-parse/lib/pdf-parse.js",
+    "ignore": "npm:/ignore",
+    "cheerio": "npm:/cheerio"
+
+  },
+  "deno.enable": true
+}
