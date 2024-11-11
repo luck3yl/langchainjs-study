@@ -19,9 +19,7 @@
     "express": "^4.19.2",
     "faiss-node": "^0.5.1",
     "langchain": "^0.1.30",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
-  },
-  "devDependencies": {
-    "ts-node": "^10.9.2"
   }
 }

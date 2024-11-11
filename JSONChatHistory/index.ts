@@ -5,13 +5,9 @@ import {
   mapChatMessagesToStoredMessages,
   mapStoredMessagesToChatMessages,
 } from "@langchain/core/messages";
-import fs from 'fs';
-import path from 'path';
+import fs from "node:fs";
+import path from "node:path";
 
-// 检查目录是否存在，如果不存在则创建
-if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-}
 export interface JSONChatHistoryInput {
   sessionId: string;
   dir: string;
@@ -79,4 +75,3 @@ export class JSONChatHistory extends BaseListChatMessageHistory {
     }
   }
 }
-
